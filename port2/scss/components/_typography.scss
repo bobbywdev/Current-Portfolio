@@ -1,0 +1,121 @@
+
+
+
+
+.name    {
+
+    color: #fdc500;
+    font-family: 'Righteous', cursive;
+ 
+  
+  
+}
+
+.profiletext    {
+
+    font-family: 'Righteous', cursive;
+}
+
+
+.linkhov    {
+
+
+    font-family: 'Righteous', cursive;
+    color:#9DC3C2;
+    font-size: .75em;
+    
+}
+
+
+
+.mainbg {
+
+    background-color: #000026;
+    position:fixed;
+    background-repeat: no-repeat;
+     background: /*linear-gradient(rgba(0, 0, 38, 0.9), rgba(0, 0, 38, 0.9))*/linear-gradient(rgba(23, 15, 35, 0.92), rgba(0, 0, 38, 0.9)), url('../../assets/images/bg2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+#logo   {
+
+    height: 4rem;
+    width: 4.5rem;
+    
+    
+}
+
+.flow   {
+
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.contacticon    {
+
+    margin-top: 1em;
+
+
+}
+
+
+
+
+.vh-20   {
+
+    height: 20vh;
+}
+
+.vh-60   {
+
+    height: 60vh;
+}
+
+
+.vh-70  {
+
+    height: 70vh;
+}
+
+.vh-85  {
+
+    height: 85vh;
+}
+
+.vh-95   {
+
+    height: 95vh;
+}
+
+.vw-10  {
+
+    width: 10vw;
+}
+
+.vw-70  {
+
+    width: 70vw;
+}
+
+.vw-80  {
+
+    width: 80vw;
+}
+
+.vw-50  {
+
+    width: 50vw;
+}
+
+.zclass {
+
+    z-index: 1;
+}
+
+#navfix {
+
+    position: fixed;
+}
