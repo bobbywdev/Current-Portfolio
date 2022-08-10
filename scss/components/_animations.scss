@@ -1,0 +1,77 @@
+#introh {
+
+    animation-name: example;
+    animation-duration: 2s;
+    position: relative;
+    
+    }
+    
+    @keyframes example {
+        
+        0%   {left:-700px; top:0px;}
+    
+        100% {left:0px; top:0px;}
+    
+    }
+    
+    
+    #introh{animation-timing-function: linear;}
+    #introf {animation-timing-function: linear;}
+    
+    #introf::before {
+    
+        opacity:0;
+    }
+    
+    #introf {
+    
+        animation-name: example2;
+        animation-duration: 2s;
+        position: relative;
+        
+        
+        }
+        
+        @keyframes example2 {
+            
+            0%   {opacity:0}
+            10%   {opacity:0}
+            20%   {opacity:0}
+            30%   {opacity:0}
+            40%  {opacity:0}
+            50%   {opacity:0}
+            60%  {opacity:0}
+            70%   {opacity:.4}
+            80%  {opacity:.6}
+            90% {opacity:.8}
+            100%   {opacity:1}
+        
+        }
+    
+        #introf::after  {
+    
+            opacity:1;
+        }
+
+
+
+
+
+        #introabout {
+
+            animation-name: example3;
+            animation-duration: 1s;
+            position: relative;
+            
+            }
+            
+            @keyframes example3 {
+                
+                0%   {left:-300px; top:0px;}
+            
+                100% {left:0px; top:0px;}
+            
+            }
+            
+            
+            #introabout{animation-timing-function: linear;}
